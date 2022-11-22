@@ -180,7 +180,6 @@ def updateitemquantity():
     changeitemq =[]
     while 1:
         u = input("\nEnter item name u want to update the quantity: ")
-        print("Enter done to stop")
         u = u.lower()
         if u == "done":
             break
